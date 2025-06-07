@@ -48,7 +48,7 @@ export class UniswapV2Processor {
       (protocol) => protocol.type === Dex.UNISWAP_V2,
     );
 
-    this.schemaName = this.generateSchemaName();
+    this.schemaName = 'public';
     this.refreshWindow = refreshWindow;
     this.apiClient = apiClient;
     this.env = env;
