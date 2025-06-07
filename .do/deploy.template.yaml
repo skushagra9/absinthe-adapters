@@ -4,7 +4,7 @@ spec:
     - name: uniswapv2-indexer
       dockerfile_path: ops/dockerfiles/Dockerfile.uniswapv2
       github:
-        repo: AbsintheLabs/absinthe-adapters
+        repo: skushagra9/absinthe-adapters
         branch: test
         deploy_on_push: true
       envs:
